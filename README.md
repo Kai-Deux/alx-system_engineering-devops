@@ -1,1 +1,1 @@
-ALX-Africa Scholarship fir Full-Stack Dev
+ALX-Africa Scholarship for Full-Stack Dev
