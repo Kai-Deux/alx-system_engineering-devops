@@ -1,6 +1,6 @@
  # 0x01-Shell_Permissions
  
- 0-iam_betty iwitches the current user to the user betty.
+0-iam_betty iwitches the current user to the user betty.
 
 1-who_am_i prints the effective username of the current user.
 
