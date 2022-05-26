@@ -1,6 +1,5 @@
-#0x01-Shell_Permissions
-
-0-iam_betty iwitches the current user to the user betty.
+# 0x01-Shell_Permissions
+ 0-iam_betty iwitches the current user to the user betty.
 
 
 
