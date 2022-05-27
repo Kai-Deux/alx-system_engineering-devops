@@ -221,3 +221,4 @@ GitHub repository: alx-system_engineering-devops
 Directory: 0x01-shell_permissions
 File: 103-Star_Wars
 >>>>>>> 0394a595c02fa4fe294a5eb69b3af983552c8684
+* Write a script that sets the mode of the file hello the same as olleh’s mode
