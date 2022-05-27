@@ -1,79 +1,23 @@
+# 0X01-SHELL_PERMISSIONS
+- 0-iam_betty iwitches the current user to the user betty.
+
+- 1-who_am_i prints the effective username of the current user.
+
+- 2-groups prints all the groups the current user is part of.
+
+- 3-new_owner changes the owner of the file hello to the user betty.
+
+- 4-empty creates an empty file called hello.
+
+- 5-execute adds execute permission to the owner of the file hello.
+
+- 6-multiple_permissions adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+
+- 7-everybody adds execution permission to the owner, the group owner and the other users, to the file hello.
+
+- 8-James_Bond sets the permission to the file hello as follows:Owner: no permission at all, Group: no permission at all and Other users: all the permissions.
+
 <<<<<<< HEAD
-8 Write a script that sets the mode of the file hello to this: 
-   * -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
-* 9 Write a script that sets the mode of the file hello to this: 
-   * -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
-* 9 Write a script that sets the mode of the file hello to this: 
-   * -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
-=======
-About Bash projects
-Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
-
-Resources
-Read or watch:
-
-Permissions
-man or help:
-
-chmod
-sudo
-su
-chown
-chgrp
-id
-groups
-whoami
-adduser
-useradd
-addgroup
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-Permissions
-What do the commands chmod, sudo, su, chown, chgrp do
-Linux file permissions
-How to represent each of the three sets of permissions (owner, group, and other) as a single digit
-How to change permissions, owner and group of a file
-Why can’t a normal user chown a file
-How to run a command with root privileges
-How to change user ID or become superuser
-Other Man Pages
-How to create a user
-How to create a group
-How to print real and effective user and group IDs
-How to print the groups a user is in
-How to print the effective userid
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your scripts will be tested on Ubuntu 20.04 LTS
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
-All your files should end with a new line (why?)
-The first line of all your files should be exactly #!/bin/bash
-A README.md file, at the root of the folder of the project, describing what each script is doing
-You are not allowed to use backticks, &&, || or ;
-All your files must be executable
-0. My name is Betty
-Create a script that switches the current user to the user betty.
-
-You should use exactly 8 characters for your command (+1 character for the new line)
-You can assume that the user betty will exist when we will run your script
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x01-shell_permissions
-File: 0-iam_betty
-1. Who am I
-Write a script that prints the effective username of the current user.
-
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x01-shell_permissions
-File: 1-who_am_i
-2. Groups
-Write a script that prints all the groups the current user is part of.
-
 Note: depending on the user, you will get a different output.
 
 Repo:
@@ -222,3 +166,6 @@ Directory: 0x01-shell_permissions
 File: 103-Star_Wars
 >>>>>>> 0394a595c02fa4fe294a5eb69b3af983552c8684
 * Write a script that sets the mode of the file hello the same as olleh’s mode
+=======
+- 9-John_Doe sets the mode of the file hello.
+>>>>>>> f8c329890e2e883b023aece56fe6e78f78769fa8
