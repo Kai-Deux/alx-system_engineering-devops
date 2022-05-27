@@ -15,9 +15,15 @@
 
 - 7-everybody adds execution permission to the owner, the group owner and the other users, to the file hello.
 
-- 8-James_Bond sets the permission to the file hello as follows:Owner: no permission at all, Group: no permission at all and Other users: all the permissions.
+- 8-James_Bond sets the permission to the file hello
 
-- 9-Write a script that sets the mode of the file hello the same as olleh’s mode
+- 9-Write a script that sets the mode of the file hello
 
+<<<<<<< HEAD
 script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 * 12 Create a script that creates a directory called my_dir with permissions 751 in the working directory
+=======
+- 10-Write a script that sets the mode of the file hello the same as olleh’s mode
+
+- 11-script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+>>>>>>> 65caaa1f119466c5bd66d449c87181d764826ffa
