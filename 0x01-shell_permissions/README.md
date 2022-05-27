@@ -17,5 +17,5 @@
 
 - 8-James_Bond sets the permission to the file hello as follows:Owner: no permission at all, Group: no permission at all and Other users: all the permissions.
 
-* Write a script that sets the mode of the file hello the same as olleh’s mode
-* Write a script that sets the mode of the file hello the same as olleh’s mode
+- 9-Write a script that sets the mode of the file hello the same as olleh’s mode
+
