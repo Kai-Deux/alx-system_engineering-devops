@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-- Create a script that takes a list of words as input and prints only words that appear exactly once
-	- Input format: One line, one word
-	- Output format: One line, one word
-	- Words should be sorted
-=======
+
 # 0x02 Shell. I/O Redirections
 - script that prints “Hello, World”, followed by a new line to the standard output.
 - a script that displays a confused smiley
@@ -26,4 +21,7 @@
 - Requirements:
 	- One file per line
 	- Sorted from the newest to the oldest
->>>>>>> 0955cebb8dd3a0f362ac5ad1e517967d1ea27387
+- Create a script that takes a list of words as input and prints only words that appear exactly once
+	- Input format: One line, one word
+	- Output format: One line, one word
+	- Words should be sorted
