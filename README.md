@@ -1,3 +1,1 @@
-ALX-Africa Scholarship for Full-Stack Dev 
-commdand fir the win
-something
+# Project: 0x04. Loops, conditions and parsing
