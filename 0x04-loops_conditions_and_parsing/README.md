@@ -3,7 +3,7 @@
 
     - Linux and Mac OS users
     - Windows users
-man: `ssh-keygen`
+# man: `ssh-keygen`
 
 You will soon have to manage your own **servers** concept page hosted on remote `data centers.` We need to set them up with your RSA public key so that you can access them via SSH.
 
@@ -17,4 +17,30 @@ Create a RSA key pair.
 - If you decide to add a passphrase to your key, make sure to save this passphrase in a secure location, you will not be able to use your keys without the passphrase
 SSH and RSA keys will be covered in depth in a later project.
 
-1. 
+1. Write a Bash script that displays `Best School` 10 times.
+
+## Requirement:
+
+- You must use the `for` loop (`while` and `until` are forbidden)
+
+```
+sylvain@ubuntu$ head -n 2 1-for_best_school 
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+sylvain@ubuntu$ ./1-for_best_school 
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+sylvain@ubuntu$ 
+```
+**Note that:**
+
+- The first line of my Bash script starts with `#!/usr/bin/env bash`
+- The second line of my Bash scripts is a comment explaining what it is doing
