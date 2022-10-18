@@ -1,6 +1,6 @@
 # TASKS
 
-0. Simply matching School
+0. **Simply matching School**
 ## Requirements:
 
 - The regular expression must match `School`
@@ -17,13 +17,13 @@ sylvain@ubuntu$ ./0-simply_match_school.rb "Grace Hopper" | cat -e
 $
 ```
 
-1.  Repetition Token #0
+1.  **Repetition Token #0**
 ## Requirements:
 
 - Find the regular expression that will match the above cases
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 
-2. Repetition Token #1
+2. **Repetition Token #1**
 ## Requirements:
 - Find the regular expression that will match the above cases
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
