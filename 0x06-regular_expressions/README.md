@@ -79,3 +79,18 @@ sylvain@ubuntu$ ./6-phone_number.rb "415-504-9898" | cat -e
 $
 sylvain@ubuntu$
 ```
+
+**7. OMG WHY ARE YOU SHOUTING?**
+## Requirement:
+
+- The regular expression must be only matching: capital letters
+Example:
+```
+sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "I realLy hOpe VancouvEr posseSs Yummy Soft vAnilla Dupper Mint Ice Nutella cream" | cat -e
+ILOVESYSADMIN$
+sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "WHAT do you SAY?" | cat -e
+WHATSAY$
+sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "cannot read you" | cat -e
+$
+sylvain@ubuntu$
+```
